@@ -219,3 +219,11 @@ p {
 .card p {
   font-weight: bold;
 }
+section {
+  padding: 60px 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
