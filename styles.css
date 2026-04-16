@@ -99,6 +99,12 @@ button {
   border: none;
   padding: 10px;
   border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
 }
 
 .whatsapp {
