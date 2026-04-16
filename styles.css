@@ -2,6 +2,7 @@ body {
   font-family: Arial;
   text-align: center;
   background: #fdf7f3;
+    line-height: 1.6;
 }
 
 header {
@@ -53,4 +54,7 @@ button {
 .hero h1 {
   font-size: 32px;
   margin-bottom: 10px;
+}
+h2 {
+  margin-bottom: 20px;
 }
