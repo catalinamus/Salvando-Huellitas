@@ -9,7 +9,7 @@ const enAdopcion = [
     nombre: "Miel",
     edad: "8 meses",
     descripcion: "Amorosa y juguetona",
-    imagen: "https://i.imgur.com/XXXX.jpg"
+    imagen: "https://i.imgur.com/1Hlh39a.jpeg"
   },
   {
     nombre: "Panqueque",
