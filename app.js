@@ -1,7 +1,7 @@
 const enAdopcion = [
   {
     nombre: "Trufa",
-    edad: 10 años",
+    edad: "10 años",
     descripcion: "Súper mimosa y amorosa",
     imagen: "https://i.imgur.com/PQUMkyU.jpeg"
   }
@@ -15,10 +15,9 @@ contenedor.innerHTML += `
     <h3>${perro.nombre}</h3>
     <p>${perro.edad}</p>
     <p>${perro.descripcion}</p>
-    <a href="https://wa.me/1135746150">
+    <a href="https://wa.me/5491135746150">
       <button>Quiero adoptarlo 💛</button>
     </a>
   </div>
 `;
-  `;
 });
