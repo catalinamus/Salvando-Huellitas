@@ -15,26 +15,51 @@ body {
 }
 
 .hero {
-  background: url("https://images.unsplash.com/photo-1558944351-cb9b3d9f3c13");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  height: 70vh;
+  padding: 20px;
+
+  background: linear-gradient(rgba(234,207,194,0.9), rgba(234,207,194,0.9)),
+              url("https://images.unsplash.com/photo-1558944351-cb9b3d9f3c13");
+
   background-size: cover;
   background-position: center;
-  padding: 100px 20px;
-  color: white;
 }
 
-.hero-box {
-  background: rgba(0,0,0,0.4);
+.hero-content {
+  max-width: 600px;
+  background: rgba(255,255,255,0.85);
   padding: 30px;
   border-radius: 20px;
-  max-width: 500px;
 }
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  margin-bottom: 20px;
+}
+
+.hero-buttons button {
+  margin: 5px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+}
+
 .primary {
   background: #c97b63;
   color: white;
 }
 
 .secondary {
-  background: white;
+  background: #eee;
 }
 
 .grid {
