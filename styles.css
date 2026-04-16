@@ -1,11 +1,11 @@
 body {
   font-family: Arial;
   text-align: center;
-  background: #f8f5f2;
+  background: #fdf7f3;
 }
 
 header {
-  background: #e7cfc3;
+  background: #eacfc2;
   padding: 20px;
 }
 
@@ -38,7 +38,7 @@ section {
   font-weight: bold;
 }
 button {
-  background: #d48c6a;
+  background: #c97b63;
   color: white;
   border: none;
   padding: 10px;
