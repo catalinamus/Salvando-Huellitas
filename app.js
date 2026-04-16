@@ -6,7 +6,7 @@ const enAdopcion = [
     imagen: "https://via.placeholder.com/250"
   }
 ];
-
+imagen: "https://via.placeholder.com/250"
 const contenedor = document.getElementById("adopcion");
 
 enAdopcion.forEach(perro => {
