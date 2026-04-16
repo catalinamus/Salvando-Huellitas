@@ -79,22 +79,18 @@ body {
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px);
 }
 
 .card img {
   width: 100%;
   height: 260px;
   object-fit: cover;
+  transition: transform 0.3s;
 }
 
-.card h3 {
-  margin: 10px;
-  font-size: 18px;
-}
-
-.card p {
-  margin: 0 10px 10px;
+.card:hover img {
+  transform: scale(1.05);
 }
 button {
   margin: 10px;
