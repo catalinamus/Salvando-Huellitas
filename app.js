@@ -11,7 +11,7 @@ const adoptados = [
   {
     nombre: "Togo",
     descripcion: "Hoy vive feliz con su familia 💛",
-    imagen: "https://via.placeholder.com/250"
+    imagen: "https://i.imgur.com/1Hlh39a.jpeg"
   }
 ];
 
