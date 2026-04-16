@@ -187,3 +187,10 @@ p {
   justify-content: space-between;
   align-items: center;
 }
+.merch-texto {
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-weight: bold;
+}
