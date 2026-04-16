@@ -1,0 +1,36 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #f8f5f2;
+}
+
+header {
+  background: #e7cfc3;
+  padding: 20px;
+}
+
+section {
+  margin: 40px;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+  width: 250px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  background: #d48c6a;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
