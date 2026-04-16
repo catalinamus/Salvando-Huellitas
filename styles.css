@@ -191,3 +191,10 @@ nav a {
 nav a:hover {
   color: #c97b63;
 }
+h2 {
+  font-size: 26px;
+}
+
+p {
+  color: #555;
+}
