@@ -7,12 +7,11 @@ body {
 
 .header {
   background: white;
-  padding: 20px;
+  border-bottom: 1px solid #eee;
 }
 
 .logo {
-  width: 90px;
-  margin-bottom: 10px;
+  width: 40px;
 }
 
 .hero {
@@ -173,21 +172,17 @@ nav a {
   gap: 10px;
 }
 
-.logo {
-  width: 45px;
-}
-
 .brand {
-  font-weight: bold;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 nav a {
-  margin: 0 10px;
+  margin-left: 20px;
   text-decoration: none;
-  color: #444;
-  font-weight: 500;
+  color: #555;
 }
+
 nav a:hover {
   color: #c97b63;
 }
@@ -197,4 +192,13 @@ h2 {
 
 p {
   color: #555;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
