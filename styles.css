@@ -188,3 +188,6 @@ nav a {
   color: #444;
   font-weight: 500;
 }
+nav a:hover {
+  color: #c97b63;
+}
