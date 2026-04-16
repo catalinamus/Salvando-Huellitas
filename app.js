@@ -1,12 +1,11 @@
 const enAdopcion = [
   {
-    nombre: "Miel",
-    edad: "8 meses",
+    nombre: "Trufa",
+    edad: 10 años",
     descripcion: "Súper mimosa y amorosa",
-    imagen: "https://via.placeholder.com/250"
+    imagen: "https://i.imgur.com/PQUMkyU.jpeg"
   }
 ];
-imagen: "https://via.placeholder.com/250"
 const contenedor = document.getElementById("adopcion");
 
 enAdopcion.forEach(perro => {
