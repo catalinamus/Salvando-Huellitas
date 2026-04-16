@@ -16,8 +16,43 @@ body {
 }
 
 .hero {
-  padding: 40px;
-  background: #eacfc2;
+  background: linear-gradient(rgba(234,207,194,0.9), rgba(234,207,194,0.9)),
+              url('https://images.unsplash.com/photo-1601758125946-6ec2ef64daf8');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  color: #333;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: auto;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.hero-buttons button {
+  margin: 10px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.primary {
+  background: #c97b63;
+  color: white;
+}
+
+.secondary {
+  background: white;
 }
 
 .grid {
