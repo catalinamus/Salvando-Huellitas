@@ -139,6 +139,15 @@ nav a {
   text-decoration: none;
   color: #333;
 }
+.transito {
+  background: #fff;
+  padding: 60px 20px;
+}
+
+.transito .frase {
+  font-weight: bold;
+  margin: 20px 0;
+}
 
 .copy {
   margin-top: 10px;
